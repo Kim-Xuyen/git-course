@@ -1,0 +1,9 @@
+1.
+- git init: dùng để khởi tạo thư mục git dưới local máy
+- git add <file_name>: thêm file vào thư mục git 
+- git add .: thêm tất cả file đã tạo vào thư mục git
+- git commit -m “message”: lưu các thay đổi vào lịch sử của project
+2.
+- folder trên local máy: file1, file2, file3
+- vùng staging: rỗng
+- repository của git: 2 commit (1 commit của git init và file1 được add)
