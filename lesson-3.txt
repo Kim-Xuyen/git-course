@@ -1,0 +1,14 @@
+1.
+  git commit --amend: dùng để sửa đổi commit cuối cùng trong git
+  git commit --amend -m”<message>”: sửa đổi message commit gần nhất
+  git restore --staged <file>: dùng để bỏ staging một tệp đã được thêm vào khu vực staging nhưng chưa được commit, loại bỏ tệp khỏi khu vực staging nhưng không làm thay đổi nội dung của tệp trong vùng working directory
+  git reset HEAD~1: dùng để di chuyển commit hiện tại về commit trước đó một bước, vẫn giữ nguyên các thay đổi trong working directory và staging.
+2.
+- Working directory": file1, file2, file3
+- Staging: file3
+- Repo: 1 commit add file file1
+
+3.
+- Working directory": file1, file2, oops/file3
+- Staging: empty
+- Repo: 1 commit file2, 1 file .gitignore
