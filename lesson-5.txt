@@ -1,0 +1,56 @@
+Câu 1: Cấu trúc DOM cơ bản của một trang web bao gồm các thẻ gì?
+Cấu trúc DOM cơ bản thường được xây dựng từ các thẻ HTML chính như sau:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tiêu đề trang</title>
+    <!-- Meta, link, script... -->
+  </head>
+  <body>
+    <!-- Nội dung trang -->
+    <header>...</header>
+    <nav>...</nav>
+    <main>
+      <section>...</section>
+      <article>...</article>
+      <div>...</div>
+    </main>
+    <footer>...</footer>
+  </body>
+</html>
+
+---Trong đó---
+<!DOCTYPE>	Khai báo loại tài liệu HTML
+<html> |	Thẻ gốc bao quanh toàn bộ tài liệu
+<head> |	Chứa metadata, tiêu đề, CSS, JS…
+<body> |	Chứa toàn bộ nội dung hiển thị cho người dùng
+
+Câu 2: Hãy mô tả cấu trúc HTML của một bảng (<table>)
+<table>
+  <thead>
+    <tr>
+      <th>Tiêu đề cột 1</th>
+      <th>Tiêu đề cột 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dữ liệu 1</td>
+      <td>Dữ liệu 2</td>
+    </tr>
+    <tr>
+      <td>Dữ liệu 3</td>
+      <td>Dữ liệu 4</td>
+    </tr>
+  </tbody>
+</table>
+
+---Trong đó---
+<table> | Bao toàn bộ bảng                  
+<thead> | Phần tiêu đề bảng (tùy chọn)      
+<tr>    | Table row – một dòng dữ liệu      
+<th>    | Table header – ô tiêu đề (in đậm) 
+<tbody> | Phần thân bảng (tùy chọn)         
+<td>    | Table data – ô dữ liệu trong bảng 
+
